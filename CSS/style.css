@@ -1,0 +1,30 @@
+body {
+  margin: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: thistle;
+  animation-name: dice;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+@keyframes dice {
+  0% {
+    background-color: #8080ff;
+  }
+  25% {
+    background-color: #bf80ff;
+  }
+  50% {
+    background-color: #cc99ff;
+  }
+  100% {
+    background-color: #bf80ff;
+  }
+}
+
+header {
+  font-size: 300px;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #33334d;
+}
